@@ -10,15 +10,14 @@
 
 **Create an environment**
 
-Whatever you prefer (e.g. ```conda``` or ```venv```)
+Whatever you prefer (e.g. conda or venv)
 
 ```bash
   $ cd chatbot
   $ python3 -m venv venv
 ```
 
-
-**Activate It**
+**Activate it**
 
 Mac/Linux:
 
@@ -52,6 +51,10 @@ $ python
 ```
 
 ## **Usage**
+Run 
+```
+python train.py
+```
 
 If you want to chat with chatbot in terminal then you have to run a **chat.py** file.
 ```
