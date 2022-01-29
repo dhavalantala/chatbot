@@ -1,0 +1,388 @@
+{"intents": [
+    {"tag": "greeting",
+        "patterns": ["Hi",
+                     "Hey",
+                      "Hii",
+                     "Hello"],
+        "responses": ["Hi, how can I help?"]
+    },
+    {"tag":"study_special_dit",
+        "patterns":["Why DIT?",
+                    "Why Study at DIT?",
+                    "What is DIT?",
+                    "What is special in DIT?",
+                    "Where I can find overview of DIT?"],
+        "responses":["<a href='https://www.th-deg.de/why-study-at-dit' target='_blank'>www.th-deg.de/why-study-at-dit</a>"]
+    },
+    {"tag": "overview_about_dit",
+        "patterns": ["Where can I find a general overview of the DIT website?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/a-z' target='_blank'>www.th-deg.de/en/students/a-z</a>"]
+    },
+    {"tag": "apply_to_campus_cham",
+        "patterns": ["How do I apply to Campus Cham?",
+                     "How can I apply to Campus Cham?"],
+        "responses": ["<a href='https://www.th-deg.de/en/apply' target='_blank'>https://www.th-deg.de/en/apply</a>"]
+    },
+    {"tag": "entry_requirements_artificial_intelligence_for_smart_sensor_actuators",
+        "patterns": ["What are the entry requirements for Artificial Intelligence for Smart sensor & Actuators?"],
+        "responses": ["<a href='https://www.th-deg.de/en/apply' target='_blank'>https://www.th-deg.de/en/apply</a>"]
+    },
+    {"tag": "entry_requirements_mechatronic_cyber_physical_systems",
+        "patterns": ["What are the entry requirements for Mechatronic & Cyber-Physical Systems?"],
+        "responses": ["<a href='https://www.th-deg.de/en/apply' target='_blank'>https://www.th-deg.de/en/apply</a>"]
+    },
+    {"tag": "funding_options_available",
+        "patterns": ["Where can I find funding options?",
+                     "Where I can find funding options?",
+                     "Where is funding options available?",
+                     "Where is funding details are available?"],
+        "responses": ["<a href='https://www.th-deg.de/en/study-with-us/funding' target='_blank'>https://www.th-deg.de/en/study-with-us/funding</a>"]
+    },
+    {"tag": "handbook_of_mechatronics_cyber_physical_systems",
+        "patterns": ["Where I can get the examination regulations for Mechatronic & Cyber-Physical Systems?",
+                     "Where I can get the module hande book for Mechatronic & Cyber-Physical Systems?",
+                     "Where I can find a module hande book for Mechatronic & Cyber-Physical Systems?"],
+        "responses": [
+            "The module handbook of the postgraduate programme Mechatronic & Cyber-Physical Systems as well as further details are listed here: <a href='https://th-deg.de/mcs-cham-m-en' target='_blank'>https://th-deg.de/mcs-cham-m-en</a>"]
+    },
+    {"tag": "handbook_of_artificial_Intelligence_for_smart_sensors_actuators",
+        "patterns":["Where I can i get the examination regulations for Artificial Intelligence for Smart Sensors & Actuators?",
+                    "Where I can get the module handbook for Artificial Intelligence for Smart Sensors & Actuators?",
+                    "Where I can find a module handebook for Artificial Intelligence for Smart Sensors & Actuators?"],
+        "responses": ["The module handbook of the postgraduate programme Artificial Intelligence for Smart Sensors & Actuators as well as further details are listed here: <a herf='https://www.th-deg.de/ki-m-en' target='_blank'>https://www.th-deg.de/ki-m-en</a>"]
+    },
+    {"tag": "examination_and_lecture",
+        "patterns": ["Where can I find the examination and lecture schedule or timetable?",
+                     "Where can I find the lecture schedule?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/documents#exam-schedule' target='_blank'>https://www.th-deg.de/en/students/documents#exam-schedule</a>"]
+    },
+    {"tag": "for_examination_and_lecture",
+        "patterns": ["Where can I find the examination Time Table?",
+                     "Where can I find the lecture Time Table?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/documents#exam-schedule' target='_blank'>https://www.th-deg.de/en/students/documents#exam-schedule</a>"]
+    },
+    {"tag": "accommodation_in_cham_deggendorf_pfarrkirchen",
+        "patterns": ["How can I find accommodation in Cham?", 
+                     "Where can I get accommodation in Deggendorf?",
+                     "Where can I get accommodation in Cham?",
+                     "Where can I get accommodation in Pfarrkirchen?", 
+                     "How to find the accommodation?",
+                     "Where can I find accommodation details?",
+                     "Where can I find accommodation?"],
+        "responses": [
+                     "<a href='https://www.th-deg.de/de/studieninteressierte/wohnen' target='_blank'>https://www.th-deg.de/de/studieninteressierte/wohnen</a> or Homepage -> Study with us -> practical information -> Accommodation",
+                     "You can search for accommodation on different searching platforms, like the DIT’s flat rental website (<a href='https://pmit-ext.th-deg.de/wb/search' target='_blank'>https://pmit-ext.th-deg.de/wb/search</a>), WG-gesucht (private online platform, mainly for shared flats - <a href='https://www.wg-gesucht.de/' target='_blank'>https://www.wg-gesucht.de/</a> ) or Ebay Kleinanzeigen (private online platform not only for flats but also second hand things (<a href='https://www.ebay-kleinanzeigen.de/' target='_blank'>https://www.ebay-kleinanzeigen.de/</a>). Get in touch with landlords there, In Deggendorf you can also apply for student housing. You can find all information about this here: <a href='https://www.th-deg.de/en/study-with-us/accommodation' target='_blank'>https://www.th-deg.de/en/study-with-us/accommodation</a>"]
+    },
+    {"tag": "international_tutors_and_whatssapp_group",
+        "patterns": ["How can I contact the international tutors?",
+                     "Is there any WhatsApp group for my course & semester?"],
+        "responses": ["tutors-cham@th-deg.de"]
+    },
+    {"tag": "aptitude_assessment_test",
+        "patterns": ["What will be the aptitude assessment test?",
+                     "Where I can find get the information for aptitude assessment test?"],
+        "responses": ["For Mechatronics and cybersecurity: <a href='https://th-deg.de/mcs-cham-m-en' target='_blank'>https://th-deg.de/mcs-cham-m-en</a>, For Artificial Intelligence for Smart Sensors and Actuators: <a href='https://www.th-deg.de/ki-m-en' target='_blank'>https://www.th-deg.de/ki-m-en</a>"]
+    },
+    {"tag": "library",
+        "patterns": ["Where is the library?",
+                     "Where is library?",
+                     "Is there any library in DIT?"],
+        "responses": ["The municipal library of Cham offers a section for students of Campus Cham. Any other books can be borrowed from the DIT library online: <a href='http://bibliothek.cham.de/' target='_blank'>http://bibliothek.cham.de/</a>"]
+    },
+    {"tag": "ebooks_DIT_library",
+        "patterns": ["How can I borrow eBooks from the DIT library?",
+                     "Can I borroe eBooks from the DIT library?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/library#e-books' target='_blank'>https://www.th-deg.de/en/students/library#e-books</a>"]
+    },
+    {"tag": "events",
+        "patterns": ["Which events are coming up?"],
+        "responses": ["<a href='https://www.th-deg.de/en/dit/events' target='_blank'>https://www.th-deg.de/en/dit/events</a>"]
+    },
+    {"tag": "sabbatical",
+        "patterns": ["How can I apply for a sabbatical semester?"],
+        "responses": ["https://www.th-deg.de/en/students/documents#sabbatical-semester"]
+    },
+    {"tag": "language_course_requirements_",
+        "patterns": ["Which language requirements do I have to fulfill in my application?",
+                     "What are the language requirements to I can fulfill in my application?",
+                     "Where can I get information for language courses?",
+                     "Where can I get details for language courses?",
+                     "How to apply for language course exam?",
+                     "How can I apply a TELC ?"],
+        "responses": ["Please directly contact the language centre of the DIT: sprachenzentrum@th-deg.de or to know more: <a href='https://www.th-deg.de/en/students/language-electives' target='_blank'>https://www.th-deg.de/en/students/language-electives</a>",
+                      "All AWP and language courses provided by the language centre can be found here: <a href='https://www.th-deg.de/en/students/language-electives' target='_blank'>https://www.th-deg.de/en/students/language-electives</a>"]
+    },
+    {"tag": "languages_elective",
+        "patterns": ["Where can I find an overview of languages and electives available?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/language-electives#info' target='_blank'>https://www.th-deg.de/en/students/language-electives#info</a>"]
+    },
+    {"tag": "founding_start-up",
+        "patterns": ["How can I find support for founding a start-up?",
+                     "Where can I find a information about a start-up?"],
+        "responses": ["<a href='https://www.th-deg.de/starting-a-business' target='_blank'>https://www.th-deg.de/starting-a-business</a>"]
+    },
+    {"tag": "information_alumni",
+        "patterns": ["Where can I find information on alumni?",
+                     "Who are our alumni?"],
+        "responses": ["<a href='https://www.th-deg.de/en/alumni' target='_blank'>https://www.th-deg.de/en/alumni</a>"]
+    },
+    {"tag": "overview",
+        "patterns": ["Where can I find an overview of all technology campuses of the DIT?"],
+        "responses": ["<a href='https://www.th-deg.de/en/research/technology-campuses' target='_blank'>https://www.th-deg.de/en/research/technology-campuses</a>"]
+    },
+    {"tag": "job_vacancies",
+        "patterns": ["Where can I find current job vacancies?", 
+                     "Is there any jobs available in DIT?",
+                     "How can I apply for part-time job?",
+                     "Where will I find job portal?",
+                     "How can I apply for the relevant job?",
+                     "Where can I find a job?",
+                     "What is Job portal of DIT?"],
+        "responses": ["<a href='https://www.th-deg.de/jobs-en' target='_blank'>https://www.th-deg.de/jobs-en</a> or Homepage -> Students -> Career -> DIT Online Job Board"]
+    },
+    {"tag": "IT_issues",
+        "patterns": ["Whom can I contact in terms of IT issues?"],
+        "responses": ["Should you face IT issues, please turn to: it-support@th-deg.de"]
+    },
+    {"tag": "primuss_issues",
+        "patterns": ["Whom can I contact in terms of Primuss issues?"],
+        "responses": ["Should you face issues with the Primuss portal, please turn to: primuss-support@th-deg.de"]
+    },
+    {"tag": "assessment_test_for_mechatronics",
+        "patterns": ["Whom can I contact in terms of questions about the aptitude assessment of Master Mechatronic and Cyber-Physical Systems?"],
+        "responses": ["Please turn to: master-mmc-exam@th-deg.de"]
+    },
+    {"tag": "assessment_test_for_artificial",
+        "patterns": ["Whom can I contact in terms of questions about the aptitude assessment of Master Artificial Intelligence for Smart Sensors and Actuators?"],
+        "responses": ["Please turn to: master-mki-exam@th-deg.de"]
+    },
+    {"tag": "vhb_information",
+        "patterns": ["Where can I find information on the VHB (Virtual University of Bavaria)?", 
+                     "How does the registration process with VHB work?",
+                     "Where can I find information on the VHB?",
+                     "What is the VHB? Which course are offerd?"],
+        "responses": ["VHB is an abbrevition for the Virtual University of Bavaria, here you can find out more infromation about a VHB: <a href='https://www.vhb.org/en/students/faqs/studying/' target='_blank'>https://www.vhb.org/en/students/faqs/studying/</a>, FAQs on the registration process can be found under: <a href='https://www.vhb.org/en/students/faqs/registering/' target='_blank'>https://www.vhb.org/en/students/faqs/registering/</a>"]
+    },
+    {"tag": "graduation",
+        "patterns": ["Which options do I have after graduation?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/after-graduation' target='_blank'>https://www.th-deg.de/en/students/after-graduation</a>"]
+    },
+    {"tag": "international",
+        "patterns": ["Where can I find general information for international students?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/internationals' target= '_blank'>https://www.th-deg.de/en/students/internationals</a>"]
+    },
+    {"tag": "information_freshers",
+        "patterns": ["Where can I find information for freshers?"],
+        "responses": ["<a href='https://www.th-deg.de/info-for-freshers' target='_blank'>https://www.th-deg.de/info-for-freshers</a>"]
+    },
+    {"tag": "guide_campus",
+        "patterns": ["Where can I find the survival guide of Campus Cham?"],
+        "responses": ["<a href='https://blaetterkatalog.th-deg.de/index.php?catalog=Survivalguide-Cham-2021#page_1' target='_blank'> https://blaetterkatalog.th-deg.de/index.php?catalog=Survivalguide-Cham-2021#page_1</a>"]
+    },
+    {"tag": "faculties_contact",
+        "patterns": ["Where can I find a general overview of faculties at the DIT?", 
+                     "Where can I find faculty contacts?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/faculties' target='_blank'>https://www.th-deg.de/en/students/faculties</a>,  Shortcut: Select your faculty on the website by clicking on the coloured dots. Each one represents one faculty.",
+                      "Homepage -> Students -> Faculty -> Select Faculty and scroll to the bottom -> You can find the faculty contacts under 'Positions' , Shortcut: Select your faculty on the website by clicking on the coloured dots. Each one represents one faculty."]
+    },
+    {"tag": "eastern_bavaria",
+        "patterns": ["Where can I find information on the mechatronics forum of Eastern Bavaria?"],
+        "responses": ["<a href='https://www.mc-netz.de/enGB/Startseite-p-4521-16.html' target='_blank'>https://www.mc-netz.de/enGB/Startseite-p-4521-16.html</a>"]
+    },
+    {"tag": "general_questions",
+        "patterns": ["Whom can I contact for general questions about Campus Cham?"],
+        "responses": ["Please turn to: studium-tc-cham@th-deg.de"]
+    },
+    {"tag": "thesis",
+        "patterns": ["When should I apply for my master's thesis?",
+                     "How many semesters do i have for my studies?"],
+        "responses": ["You can register your master thesis at the beginning of your third study semester and thus complete your studies within the regular study period of three semesters. By the end of your fifth study semester at the very latest, you need to have registered your master thesis. We thus recommend applying approx. 3 months in advance to companies in order to obtain a practical thesis topic."]
+    },
+    {"tag": "scholarships",
+        "patterns": ["What are the scholarships available from the University?",
+                     "How to apply for the scholarship?", 
+                     "How many scholarships are available?"],
+        "responses": ["You can find all information about scholarships at DIT here: <a href='https://www.th-deg.de/en/study-with-us/funding' target='_blank'>https://www.th-deg.de/en/study-with-us/funding</a>, Here is a great page for scholarships in Germany that you can apply for independently from our university: <a href='https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?status=&origin=&subjectGrps=&daad=&q=&page=1&back=1' target='_blank'>https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?status=&origin=&subjectGrps=&daad=&q=&page=1&back=1</a> ,We do have scholarships for national and international students, However we only give scholarships to students who already have studied here at least one semester. The grades students achieve here in Deggendorf as well as extracurricular activities are relevant and considered during the evaluation of the eligibility for scholarships, Furthermore, it is important to note that our scholarships are a one-time-help, and are not sufficient for financing day-to-day life here."]
+    },
+    {"tag": "course_requirements",
+        "patterns": ["What are the course requirements for application to my desired course?",
+                     "What are the course requirements fro Master Mechatronic and Cyber-Physical Systems?",
+                     "What are the course requirements fro Master Artificial Intelligence for Smart Sensors and Actuators?"],
+        "responses": ["You can find the requirements on the course website. Here you can find all the course choices:<a href='https://www.th-deg.de/en/study-with-us/course-choices' target='_blank'>https://www.th-deg.de/en/study-with-us/course-choices</a>",
+                      "Select your desired course and you will find the basic requirements in the course fact sheet. In detail you will find them in the study and exam regulations: <a href='https://www.th-deg.de/en/students/documents' target='_blank'>https://www.th-deg.de/en/students/documents</a>"]
+    },
+    {"tag": "admission_letter",
+        "patterns": ["What I need to do after receiving admission letter?"],
+        "responses": ["After admission you have to enrol for your desired course. You will find all relevant information in your admission letter. Usually you have to upload some more documents in the PRIMUSS portal. Here you can find relevant enrolment documents: <a href='https://www.th-deg.de/en/students/documents#enrolment-documents' target='_blank'>https://www.th-deg.de/en/students/documents#enrolment-documents</a>",
+                      "Get started with our Quiescent or Survival Guide: <a href='https://th-deg.de/info-for-freshers' target='_blank'>https://th-deg.de/info-for-freshers</a>"]
+    },
+    {"tag": "IDcard",
+        "patterns": ["How can I get student ID cards?",
+                     "From Where can I get students ID cards?"],
+        "responses": ["It will be sent to current address in Germany via mail after your enrolment."]
+    },
+    {"tag": "semester_fees",
+        "patterns": ["How to pay semester fees?", 
+                     "How much I have to pay semester fees?"],
+        "responses": ["you can re-register by paying the fees directly to the account of the Staatsoberkasse Bayern: <a href='https://www.th-deg.de/en/students/documents#accordion-refund-of-fees' target='_blank'>https://www.th-deg.de/en/students/documents#accordion-refund-of-fees</a> (here you can find the bank details)",
+                      "The current height of the student service fee you can find here: <a href='https://www.th-deg.de/en/students/documents#fees' target='_blank'>https://www.th-deg.de/en/students/documents#fees</a>"]
+    },
+    {"tag": "exam_registration_information",
+        "patterns": ["How can I register for exam?", 
+                     "Where can I get exam-related information?"],
+        "responses": ["The exam registration/de-registration process as well as the publication of grades can be checked under: <a href='https://www.th-deg.de/en/students/documents#exams' target='_blank'>https://www.th-deg.de/en/students/documents#exams</a>, Register for your exams in the PRIMUSS portal <a href='https://www.primuss.de/portal-thd' target='_blank'>https://www.primuss.de/portal-thd</a>"]
+    },
+    {"tag": "login_information",
+        "patterns": ["How can I get my student login information?"],
+        "responses": ["You will receive them on your private mail account after enrolment. You can find all information in the “First steps in the it” flyer: <a href='https://www.th-deg.de/it-services-en' target='_blank'>https://www.th-deg.de/it-services-en</a>"]
+    },
+    {"tag": "coordinator",
+        "patterns": ["Who is the course coordinator?",
+                     "Who is the course coordinator for Artificial Intelligence for Smart sensor & Actuators?",
+                     "Who is the course coordinator for Mechatronic & Cyber-Physical Systems?"],
+        "responses": ["<a href='https://www.th-deg.de/en/students/faculties' target='_blank'>https://www.th-deg.de/en/students/faculties</a> or Homepage -> Students -> Faculty -> Select Faculty and scroll to the bottom -> You can find the course coordinator under “Positions”"]
+    },
+    {"tag": "double_degree_programs",
+        "patterns": ["How can I apply for double degree programs?",
+                     "What are the process for double degree programs?"],
+        "responses": ["You will find all relevant information on the course website. Here you can find all double degree programs: <a href='https://www.th-deg.de/en/study-with-us/course-choices/double-degrees' target='_blank'>https://www.th-deg.de/en/study-with-us/course-choices/double-degrees</a>, Select your desired course and you will find the basic requirements in the course fact sheet. In detail you will find them in the study and exam regulations: <a href='https://www.th-deg.de/en/students/documents' target='_blank'>https://www.th-deg.de/en/students/documents</a>"]
+    },
+    {"tag": "career_advice",
+        "patterns": ["How can I get advice for career?",
+                     "Where can I get advice for career?",
+                     "Where can I get guidance for career?"],
+        "responses": ["Get in touch with DIT’s career service: <a href='https://www.th-deg.de/de/hochschule/kontakt/career-service' target='_blank'>https://www.th-deg.de/de/hochschule/kontakt/career-service</a>, You can write an e-mail, call or make an appointment for an individual consultation."]
+    },
+    {"tag": "career_news_letter",
+        "patterns":["What is career newsletter? And how it's helpful?",
+                    "Where is career newsletter?",
+                    "How is career newsletter can help me?"],
+        "responses":["You get job offers via e-mail regularly. You can find the same job offers there as in on the DIT online job board (<a href='https://pmit-ext.th-deg.de/okb/app/index?lang=en_GB' target='_blank'>https://pmit-ext.th-deg.de/okb/app/index?lang=en_GB</a>). So, if you are looking for a part-time job, a Bachelor or Master Thesis position or a full-time job, it will be helpful for you."]
+    },
+    {"tag": "research_facilities",
+        "patterns": ["What are the research facilities available at DIT?"],
+        "responses": ["The research and development facilities of the DIT can be found here: <a href='https://www.th-deg.de/en/research/technology-campuses' target='_blank'>https://www.th-deg.de/en/research/technology-campuses</a>"]
+    },
+    {"tag": "research",
+        "patterns": ["How can I join research groups of DIT?"],
+        "responses": ["For upcoming research events of the DIT, please refer to: <a href='https://www.th-deg.de/en/research' target='_blank>https://www.th-deg.de/en/research</a>"]
+    },
+    {"tag": "access_books",
+        "patterns": ["How can I access books from the DIT library?"],
+        "responses": ["This and many more library processes can be found under: <a href='https://www.th-deg.de/en/students/library' target='_blank'>https://www.th-deg.de/en/students/library</a>",
+                      "You can register for library introduction courses under:<a href='https://www.th-deg.de/en/students/library#introduction%20courses' target='_blank'>https://www.th-deg.de/en/students/library#introduction%20courses</a>"]
+    },
+    {"tag": "access_to_software",
+        "patterns": ["How can I get free access to software?", 
+                     "How to get the key for the SolidWorks software?", 
+                     "How to get access to Microsoft office 365 and windows 10 license?",
+                     "Which free software is provided by DIT?"],
+        "responses": ["General information about software provided by DIT can be found under: <a href='https://www.th-deg.de/it-services-en' target='_blank'>https://www.th-deg.de/it-services-en</a>, For detailed enquiries, please turn to our IT Support: it-support@th-deg.de"]
+    },
+    {"tag": "exchange_programme",
+        "patterns": ["What is the student exchange programme and how can I apply?",
+                     "What is the student exchange programme?",
+                     "How can I apply in student exchange programme?",
+                     "How to apply in student exchange programme?",
+                     "How to apply in studying abroad?",
+                     "How can I apply in studying abroad?"],
+        "responses": ["For further information about studying abroad, please check out: <a href='https://www.th-deg.de/en/students/going-abroad' target='_blank'>https://www.th-deg.de/en/students/going-abroad</a>"]
+    },
+    {"tag": "transcript",
+        "patterns": ["Where can I get my transcript of records?",
+                     "How can I get my transcript?"],
+        "responses": ["You can download your current transcript of records directly from the Primuss portal., A provisional degree certificate can be requested from the clerk of your respective study programme.,A general overview can be found here: <a href='https://th-deg.de/en/study-with-us/advice-support/admin-centre' target='_blank'>https://th-deg.de/en/study-with-us/advice-support/admin-centre</a>"]
+    },
+    {"tag": "tandem_programme",
+        "patterns": ["What is the tandem programme?",
+                     "Where can I find tandem programme?",
+                     "Where can I get the details of tandem programme?"],
+        "responses": ["The programme framework, registration process as well as exam details can be found under the corresponding Tandem section under: <a href='https://www.th-deg.de/en/students/language-electives#languages' target='_blank'>https://www.th-deg.de/en/students/language-electives#languages</a>"]
+    },
+    {"tag": "course_structure",
+        "patterns": ["What is the course structure?",
+                     "Where can I find a course structure?"],
+        "responses": ["The course structure can be found by searching for your specific study programme: <a href='https://www.th-deg.de/mcs-cham-m-en#subject-overview' target='_blank'>https://www.th-deg.de/mcs-cham-m-en#subject-overview</a>, <a href='https://www.th-deg.de/ki-m-en#subject-overview' target='_blank'>https://www.th-deg.de/ki-m-en#subject-overview</a>"]
+    },
+    {"tag": "exam_result",
+        "patterns": ["When should I check my exam result?",
+                     "Where should I check my exam result?"],
+        "responses": ["You will receive a separate email by the study centre including information on the grade announcement via the Primuss portal. "]
+    },
+    {"tag": "sport_activity_club",
+        "patterns": ["Is there any sports or activity club in college?"],
+        "responses": ["There is no specific sports or activity club on site yet., However, the ASV Cham is a local club providing a vast range of sports., <a href='https://www.asv-cham.de/' target='_blank'>https://www.asv-cham.de/</a>"]
+    },
+    {"tag": "VHB_certificate_information",
+        "patterns": ["What should I do after I have passed a VHB course and received the certificate?",
+                     "What should I do after I have passed a VHB course?",
+                     "How can I get the VHB certificate?",
+                     "How can I received the VHB certificate?",
+                     "Where can I get the VHB information?"],
+        "responses": ["Upon completion of your corresponding VHB course, please send your course certificate to the clerk allocated to your respective study programme., A general overview can be found here: <a href='https://th-deg.de/en/study-with-us/advice-support/admin-centre' target='_blank'>https://th-deg.de/en/study-with-us/advice-support/admin-centre</a>"]
+    },
+    {"tag": "credits_course",
+        "patterns": ["How can I transfer my previous course credits to this course?", 
+                     "What should I do if I have similar course structure from my previous studies?",
+                     "Can I transfer my previous course credits to this course?",
+                     "Can I transfer my previous course credits to my course?"],
+        "responses": ["If you have already covered a similar module during your previous studies and wish to transfer the credit points to your current study programme, please click on: <a href='https://www.th-deg.de/en/students/documents#accordion-application-for-recognition' target='_blank'>https://www.th-deg.de/en/students/documents#accordion-application-for-recognition</a> , The recognition form to be filled in is listed under the faculty your study programme belongs to (Campus Cham – Faculty of Applied Natural Sciences and Industrial Engineering). Upon filling in the form, you need to send this document to the lecturer of the module you want to have recognised",
+                      "If applicable, you can apply for a recognition of credit points for modules that are similar both in content and volume. If you have already covered a similar module during your previous studies and wish to transfer the credit points to your current study programme, please click on: <a href='https://www.th-deg.de/en/students/documents#accordion-application-for-recognition' target='_blank'>https://www.th-deg.de/en/students/documents#accordion-application-for-recognition</a> The recognition form to be filled in is listed under the faculty your study programme belongs to (Campus Cham – Faculty of Applied Natural Sciences and Industrial Engineering). Upon filling in the form, you need to send this document to the lecturer of the module you want to have recognised."]
+    },
+    {"tag": "located_of_cham_campus",
+        "patterns": ["Where is DIT campuscham located?",
+                     "Where is DIT campuscham?",
+                     "Where is Technology CampusCham?"],
+        "responses":["Address: Badstraße 21, 93413 Cham, map: <a href='https://goo.gl/maps/jhJcWSGLPLPEiLLH6' target='_blank'>https://goo.gl/maps/jhJcWSGLPLPEiLLH6</a>"]
+    },
+    {"tag": "cham_campus",
+        "patterns": ["What campus Cham?",
+                     "Why Technology Campus Cham?",
+                     "Why Technology Campus Cham?"],
+        "responses":["<a href='https://www.th-deg.de/tc-cham-en' target='_blank'>https://www.th-deg.de/tc-cham-en</a>"]
+    },
+    {"tag": "cham_town_city",
+        "patterns": ["What is Cham town?",
+                     "What about Cham town?",
+                     "Could you tell me something about Cham?",
+                     "What are the local environment in Cham?",
+                     "Is there any culture event in Cham?",
+                     "What are the social activity in Cham?",
+                     "Which are the culture events in Cham?"],
+        "responses":["you can find the details about culture events, social activity Here: <a href='https://www.th-deg.de/en/campus-cham' target='_blank'>https://www.th-deg.de/en/campus-cham</a>"]
+    },
+    {"tag": "objective_of_sensor_lab",
+        "patterns": ["What is the objective of Sensor?"],
+        "responses":["analysis of functionality and lifetime of sensors and use of sensors for AI related application development"]
+    },
+    {"tag": "analyzed_sensor",
+        "patterns": ["What kind of sensors are analyzed?"],
+        "responses":["magnetic angle sensors, pressure sensors, speed sensors"]
+    },
+    {"tag": "equipment_being_used",
+        "patterns": ["What equipment is being used?",
+                     "What type of equipments are used in laboratory?"],
+        "responses":["furnaces, sen functionality test systems, GPU server (soon), temperature cycling chamber (soon)"]
+    },
+    {"tag": "working_in_lab",
+        "patterns": ["Who is working in the lab?",
+                     "Who is working in the laboratory?"],
+        "responses":["Students doing thesis and projects"]
+    },
+    {"tag": "lifetime_stress_being_applied",
+        "patterns": ["What kind of lifetime stress is being applied?"],
+        "responses":["mainly HTxOL (High temperature operating life with sensor specific additional stress condition (= x), TC (temperature cycling)"]
+    },
+    {"tag": "projects_in_this_lab",
+        "patterns": ["What are typical projects in this lab?"],
+        "responses":["Development and Implementation of sensor functionality test systems, investigation of sensor lifetime, analysis of usability of machine learning methods for sensor lifetime prediction"]
+    },
+     {"tag": "sensor_lab",
+        "patterns": ["Where is the sensor lab?",
+                     "Where is the sensorlab?",
+                     "Where is sensor lab?",
+                     "Where is sensorlab?"],
+        "responses": ["At DIT campus cham: Near inovation lab(Lab-6)"]
+    }
+]
+}
