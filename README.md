@@ -3,7 +3,7 @@
 
 - This project is one kind of chatbot which serves to new users of Technical Campus of Deggendorf Cham.
 
-- We have built this application on python, deep learning for backend and flask framework for frontend usability.
+- I have built this application on python, deep learning for backend and flask framework for frontend usability.
 
 
 ## Installation
